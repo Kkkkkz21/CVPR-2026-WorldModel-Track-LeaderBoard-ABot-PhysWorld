@@ -1,0 +1,145 @@
+{
+    "task1": {
+        "prompt_plan": [
+            "The robotic arm approaches the banana resting on the table. The gripper aligns with the long axis of the banana, then gently closes to pinch the fruit at its midpoint with just enough pressure to prevent slippage.",
+            "With the banana securely grasped, the arm lifts it vertically off the table while keeping it horizontal. The banana rises steadily, clearing the surface.",
+            "Holding the banana horizontally above the table, the arm sweeps laterally toward the basket in a smooth arc. The fruit stays level throughout the transit.",
+            "Arriving above the basket, the arm makes fine positional adjustments to center the banana over the opening, then lowers it steadily into the basket's grid structure.",
+            "The banana settles into the basket with a slight depression on contact. The gripper opens to release the fruit, then retracts upward to its initial rest position."
+        ],
+        "negative_prompt": "banana clip crooked, banana slipping from gripper, failed grasp, dropping the banana, missing the banana, gripper closing on empty space, banana falling mid-transport, banana bouncing out of basket, unstable grip, banana rolling away, gripper misaligned with banana, collision with table, knocking over the basket, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 5
+    },
+    "task2": {
+        "prompt_plan": [
+            "The robotic arm scans the workspace and identifies the green bowl on the table, distinguishing it clearly from any other objects. The arm extends forward and positions its open gripper directly above the green bowl, aligning precisely with the green bowl's circular rim. The gripper hovers steadily, ready to descend.",
+            "The robotic arm lowers its gripper downward toward the green bowl in a controlled descent. As the gripper reaches the green bowl's rim, it closes firmly and tightly around the outer edge of the green bowl, clamping down with strong, secure force. The green bowl is locked solidly in the gripper's grasp with no wobble or slippage.",
+            "With the green bowl clamped tightly in its gripper, the robotic arm lifts the green bowl vertically off the table in a slow, steady upward motion. The green bowl remains perfectly level and stable throughout the ascent, held securely without any tilting or swaying. The arm raises the green bowl well above the table surface.",
+            "The robotic arm carries the green bowl horizontally through the air toward the pink plate, maintaining its firm, unyielding grip throughout the entire transit. The green bowl stays perfectly level without any rocking or dipping. The arm arrives above the pink plate and makes fine positional adjustments to center the green bowl directly over the middle of the pink plate.",
+            "The robotic arm lowers the green bowl slowly and steadily downward until the green bowl's base makes gentle contact with the pink plate surface. The gripper gradually loosens and carefully opens its fingers to release the green bowl, which settles securely onto the pink plate. The robotic arm retracts upward smoothly and returns to its initial rest position."
+        ],
+        "negative_prompt": "gray bowl, grey bowl, wrong bowl, green bowl slipping from gripper, failed grasp, dropping the green bowl, missing the green bowl, gripper closing on empty space, green bowl falling mid-transport, green bowl tipping over, unstable grip, green bowl sliding off pink plate, gripper misaligned with green bowl, collision with table, knocking over the pink plate, loose grip, wobbly hold, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 5
+    },
+    "task3": {
+        "prompt_plan": [
+            "Both robotic arms extend inward from the left and right sides of the workspace, moving toward the open cardboard box in the center. Each gripper opens wide and positions itself precisely next to one of the two protruding box flaps on either side of the box, aligning carefully to prepare for gripping.",
+            "Both grippers simultaneously close firmly onto the box flaps, clamping down tightly on each flap. The arms then bend the flaps inward toward the center of the box, curving them to align with the open seam on top of the box. Both grippers maintain a strong, unyielding grip throughout the entire bending motion.",
+            "With both flaps still tightly gripped, the robotic arms push the box flaps downward and fold them over the top opening of the box. The flaps are pressed flat against the box surface, tucking them securely into the closure position on top of the cardboard box.",
+            "Both robotic arms release the folded flaps and retract upward above the box. The arms reposition themselves directly over the top center of the box, raising the grippers high to prepare for a downward pressing motion to secure the box flaps firmly in place.",
+            "stack the box ears.",
+            "stack the box ears.",
+            "stack the box ears.",         
+            "stack the box ears.",
+            "stack the box ears.",
+            "stack the box ears."
+        ],          
+        "negative_prompt": "flaps springing back open, failed grasp on flaps, dropping the flap, flaps not folding inward, box collapsing, flaps misaligned with closure slot, gripper closing on empty space, flap slipping from gripper, only one arm moving, arms colliding with each other, box tipping over, flaps tearing, incomplete fold, flaps sticking out, box crushed, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 10
+    },
+    "task4": {
+        "prompt_plan": [
+            "Both robotic arms extend inward toward the transparent plastic container with chips inside on the left side of the table. The left arm positions its open gripper against the side of the container body to stabilize it, while the right arm reaches toward the edge of the transparent plastic lid on top.",
+            "The right arm pinches the edge of the transparent lid firmly and begins peeling it upward. The left arm presses against the container body to hold it steady on the table, preventing any sliding or tipping as the lid is being pulled open.",
+            "The right arm continues lifting the transparent lid, pulling it fully off the container to expose the chips inside. The left arm keeps the container firmly in place on the table. The removed lid is set aside or released away from the workspace.",
+            "With the lid removed and chips exposed, the left arm adjusts its grip to clamp firmly around the container body. The right arm moves to grip the container from the opposite side. Both arms secure a strong, stable hold on the container from both sides, preparing to lift it.",
+            "Both robotic arms lift the open container off the table together, keeping it level and steady. The arms carry the container horizontally toward the pink plate on the right side, positioning it directly above the plate edge with the chips still inside.",
+            "Both arms tilt the container at a steep angle over the pink plate, pouring all the chips out of the container onto the pink plate surface. The arms shake the container gently to empty it completely, then place the empty container back on the table and retract to their rest positions.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate.",
+            "Open the box lid and pour the chips from the box onto the plate."
+        ],
+        "negative_prompt": "chips spilling on table, chips falling outside plate, failed lid opening, lid snapping shut, dropping the container, container tipping over uncontrolled, gripper missing the lid, chips stuck in container, container collision with plate, knocking over the plate, loose grip on container, container slipping from gripper, chips scattering everywhere, lid not fully removed, only one arm moving, arms colliding with each other, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 20
+    },
+    "task5": {
+        "prompt_plan": [
+            "The left robotic arm extends inward toward the blue container on the left side of the table. The gripper opens wide and positions itself directly above the yellow broom handle inside the blue container, aligning precisely with the handle.",
+            "The left arm lowers its gripper onto the yellow broom handle, clamps down firmly, and lifts the yellow broom upward out of the blue container, holding it steadily in the air.",
+            "The right robotic arm extends inward toward the white dustpan on the right side of the table. The gripper opens wide and positions itself directly above the white dustpan handle, aligning precisely with the handle.",
+            "The right arm lowers its gripper onto the white dustpan handle and clamps down firmly, securing a tight grip on the white dustpan.",
+            "Both arms move together toward the small white trash ball in the center of the table. The left arm positions the yellow broom behind the trash and the right arm positions the white dustpan in front of the trash, with the dustpan open edge facing the trash.",
+            "The left arm raises the yellow broom, aligns the bristles with the white trash ball, then sweeps forward in a firm stroke, pushing the trash directly into the open dustpan. The right arm holds the dustpan steady. Both arms then retract to their rest positions.",
+            "Sweep the trash into the dustpan using a broom.",
+            "Sweep the trash into the dustpan using a broom.",
+            "Sweep the trash into the dustpan using a broom.",
+            "Sweep the trash into the dustpan using a broom."
+        ],
+        "negative_prompt": "trash scattering away from dustpan, broom missing the trash, failed grasp on broom, broom slipping from gripper, sweeping in wrong direction, trash flying off table, dustpan tipping over, incomplete sweeping, dustpan not flat on surface, trash rolling past dustpan, broom not touching surface, only one arm moving, arms colliding with each other, dropping the broom, dropping the dustpan, gripper missing broom handle, gripper missing dustpan handle, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 10
+    },
+    "task6": {
+        "prompt_plan": [
+            "Both robotic arms extend inward toward the white T-shirt laid flat on the table. The left arm positions its open gripper above the left edge of the shirt. The right arm positions its open gripper above the right edge of the shirt.",
+            "The left arm lowers its gripper and grips the left edge of the white shirt firmly, pinching the fabric at the left sleeve area.",
+            "The left arm lifts the left edge of the shirt and folds it inward toward the center along the vertical axis, folding the left sleeve and left body panel over the middle of the shirt. The left arm presses the folded fabric flat against the table.",
+            "The left arm releases the fabric and retracts. The right arm lowers its gripper and grips the right edge of the white shirt firmly, pinching the fabric at the right sleeve area.",
+            "The right arm lifts the right edge of the shirt and folds it inward toward the center along the vertical axis, folding the right sleeve and right body panel over the previous fold. The right arm presses the folded fabric flat. The shirt is now a narrow vertical rectangle.",
+            "The right arm releases the fabric and retracts. Both arms reposition above the narrow folded shirt. The left arm grips the left edge and the right arm grips the right edge of the narrow rectangle, preparing to fold it even narrower.",
+            "Both arms fold the left and right edges inward once more, making the shirt into an even narrower vertical strip. Both arms press the fabric flat against the table.",
+            "Both arms release the fabric and reposition to the bottom hem of the narrow folded shirt. Both grippers open and descend to grip the bottom edge of the shirt firmly.",
+            "Both arms lift the bottom edge of the shirt and fold it upward toward the top, creating a horizontal fold at the midpoint. The arms press the folded fabric flat against the table. The shirt is now a compact rectangle.",
+            "Both arms release the fabric and reposition. The left arm grips the bottom edge of the compact rectangle, preparing for a second horizontal fold.",
+            "The left arm lifts the bottom edge and folds it upward again toward the top, creating a smaller, thicker square. The left arm presses the folded fabric flat against the table.",
+            "The left arm presses down firmly on the folded shirt to flatten all layers and ensure the folds are crisp and secure.",
+            "The left arm opens its gripper wide and descends onto the folded shirt, gripping it firmly from above to pick it up.",
+            "The left arm lifts the neatly folded shirt off the table and holds it in the air. The folded shirt remains compact and intact. Both arms retract to their rest positions.",
+            "Fold the shirt.",
+            "Fold the shirt.",
+            "Fold the shirt.",
+            "Fold the shirt.",
+            "Fold the shirt.",
+            "Fold the shirt."
+        ],
+        "negative_prompt": "shirt unfolding, wrinkled fold, asymmetric folding, fabric bunching up, failed grasp on fabric, shirt sliding off table, incomplete fold, shirt tearing, gripper tangled in fabric, messy folds, only one arm moving, arms colliding with each other, fabric not lying flat, sleeve sticking out, uneven fold, fold coming undone, shirt falling apart when lifted, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 20
+    },
+    "task7": {
+        "prompt_plan": [
+            "The left robotic arm extends inward toward the blue tape dispenser on the lower left side of the table. The left gripper opens wide and positions itself directly above the blue tape dispenser body.",
+            "The left arm lowers its gripper onto the blue tape dispenser and presses down firmly, holding the dispenser steady against the table to prevent it from moving.",
+            "The right robotic arm extends inward toward the blue tape dispenser. The right gripper opens and positions itself near the free end of the tape protruding from the dispenser, aligning precisely with the tape end.",
+            "The right arm pinches the free end of the tape firmly between its gripper fingers, securing a tight grip on the tape.",
+            "The right arm pulls the tape outward away from the dispenser, extending a suitable length of tape. The tape stretches taut between the dispenser and the right gripper. The left arm continues holding the dispenser steady on the table.",
+            "The right arm continues pulling the tape further outward to extend a longer piece. The left arm presses down firmly on the dispenser to keep it from sliding.",
+            "The right arm gives a quick, decisive pull to tear the tape off at the dispenser's cutting edge. The torn piece of tape is held securely by the right gripper.",
+            "The right arm carries the piece of tape toward the brown cardboard box on the upper right side of the table, positioning the tape above the top surface of the box.",
+            "The right arm lowers the tape onto the top surface of the brown cardboard box and presses it down firmly, smoothing the tape flat to ensure strong adhesion to the box surface.",
+            "The right arm presses down on the tape once more to secure it completely onto the brown cardboard box. The right arm then releases and retracts upward. The left arm also releases the tape dispenser and retracts to its rest position.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box.",
+            "Tear off a piece of tape and stick it onto the box."
+        ],
+        "negative_prompt": "tape sticking to gripper, failed tape tear, tape crumpling, tape folding on itself, missing the tape end, tape not adhering to box, tape falling off, gripper tangled in tape, tape stretching too far, incomplete adhesion, dispenser sliding away, dispenser tipping over, only one arm moving, arms colliding with each other, dropping the tape, tape stuck to table, gripper missing tape end, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 20
+    },
+    "task8": {
+        "prompt_plan": [
+            "The robotic arm scans the workspace and identifies the panda toy on the table, distinguishing it clearly from any other objects. The arm extends forward and positions its open gripper directly above the panda toy, aligning precisely with the panda toy's body. The gripper hovers steadily, ready to descend.",
+            "The robotic arm lowers its gripper downward toward the panda toy in a controlled descent. As the gripper reaches the panda toy's body, it closes firmly and tightly around the panda toy, clamping down with strong, secure force. The panda toy is locked solidly in the gripper's grasp with no wobble or slippage.",
+            "With the panda toy clamped tightly in its gripper, the robotic arm lifts the panda toy vertically off the table in a slow, steady upward motion. The panda toy remains perfectly stable throughout the ascent, held securely without any tilting or swaying. The arm raises the panda toy well above the table surface.",
+            "The robotic arm carries the panda toy horizontally through the air toward the pink plate, maintaining its firm, unyielding grip throughout the entire transit. The panda toy stays perfectly stable without any rocking or dipping. The arm arrives above the pink plate and makes fine positional adjustments to center the panda toy directly over the middle of the pink plate.",
+            "The robotic arm lowers the panda toy slowly and steadily downward until the panda toy makes gentle contact with the surface of the pink plate. The gripper gradually loosens and carefully opens its fingers to release the panda toy, which settles securely onto the pink plate. The robotic arm retracts upward smoothly and returns to its initial rest position."
+        ],
+        "negative_prompt": "wrong toy, panda slipping from gripper, failed grasp, dropping the panda, missing the panda, gripper closing on empty space, panda falling mid-transport, panda bouncing off pink plate, unstable grip, panda tipping over, panda sliding off pink plate, gripper misaligned with panda, collision with table, knocking over the pink plate, loose grip, wobbly hold, vivid colors, overexposed, static, blurry details, subtitles, stylized, artwork, painting, still frame, overall grayish, worst quality, low quality, JPEG compression artifacts, ugly, incomplete, extra fingers, poorly drawn hands, poorly drawn face, deformed, disfigured, malformed limbs, fused fingers, frozen frame, cluttered background, three legs, crowded background, walking backwards",
+        "max_interactions": 5
+    }
+}

@@ -1,0 +1,7 @@
+-e ./third_party/giga-train
+-e ./third_party/giga-datasets
+lmdb>=1.4.1
+numpy==1.26.4
+pyzmq
+easydict
+modelscope

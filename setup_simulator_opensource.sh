@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 /path/to/miniconda3/envs/giga_torch/bin/python simulator/script/run_simulator_server.py --host_port 6000
