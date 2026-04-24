@@ -101,6 +101,50 @@ cd third_party/giga-datasets && pip3 install -e .
 # download pretrained models
 python scripts/download_pretrained_models.py
 python scripts/download_gigabrain_policy.py
+
+
+## Model Download
+
+The trained World Model checkpoint (`diffusion.safetensors`) is hosted on **ModelScope**:
+
+🔗 **Repository**: [Kkkkkz21/CVPR-2026-WorldModel-Track-LeaderBoard-ABot-PhysWorld](https://www.modelscope.cn/Kkkkkz21/CVPR-2026-WorldModel-Track-LeaderBoard-ABot-PhysWorld)
+
+### Option 1: Download via ModelScope SDK (Recommended)
+
+```bash
+pip install modelscope
+```
+
+```python
+from modelscope import snapshot_download
+
+model_dir = snapshot_download(
+    'Kkkkkz21/CVPR-2026-WorldModel-Track-LeaderBoard-ABot-PhysWorld'
+)
+print(f"Model downloaded to: {model_dir}")
+```
+
+### Option 2: Download via Git LFS
+
+```bash
+# make sure git-lfs is installed
+git lfs install
+
+git clone https://www.modelscope.cn/Kkkkkz21/CVPR-2026-WorldModel-Track-LeaderBoard-ABot-PhysWorld.git
+```
+
+### Files Included
+
+| File | Description |
+|------|-------------|
+| `diffusion.safetensors` | World Model checkpoint (use as `TRANSFORMER_MODEL_PATH` in `run_single_gpu_opensource.sh`) |
+| `configuration.json` | Model configuration metadata |
+| `README.md` | Model card on ModelScope |
+
+After downloading, update `TRANSFORMER_MODEL_PATH` in `run_single_gpu_opensource.sh` to point to the downloaded `diffusion.safetensors`:
+
+```bash
+TRANSFORMER_MODEL_PATH="/path/to/downloaded/diffusion.safetensors"
 ```
 
 ## License
